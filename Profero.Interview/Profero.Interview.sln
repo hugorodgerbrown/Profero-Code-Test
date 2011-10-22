@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Profero.Interview", "Profero.Interview\Profero.Interview.csproj", "{2FF4B0CA-5E3B-4A66-A24D-E3CB10F75E45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Profero.Interview.Business", "Profero.Interview.Business\Profero.Interview.Business.csproj", "{A46AC9E8-1B97-46AB-AF16-C80B9E9747DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Profero.Interview.Tests", "Profero.Interview.Tests\Profero.Interview.Tests.csproj", "{3DFDD9CB-7806-487B-8264-73DD806AC471}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CBF499C2-30F4-4322-A306-6CCB28F01A4C}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		Profero.Interview.vsmdi = Profero.Interview.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Profero.Interview.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FF4B0CA-5E3B-4A66-A24D-E3CB10F75E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FF4B0CA-5E3B-4A66-A24D-E3CB10F75E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FF4B0CA-5E3B-4A66-A24D-E3CB10F75E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FF4B0CA-5E3B-4A66-A24D-E3CB10F75E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A46AC9E8-1B97-46AB-AF16-C80B9E9747DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A46AC9E8-1B97-46AB-AF16-C80B9E9747DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A46AC9E8-1B97-46AB-AF16-C80B9E9747DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A46AC9E8-1B97-46AB-AF16-C80B9E9747DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DFDD9CB-7806-487B-8264-73DD806AC471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DFDD9CB-7806-487B-8264-73DD806AC471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DFDD9CB-7806-487B-8264-73DD806AC471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DFDD9CB-7806-487B-8264-73DD806AC471}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
