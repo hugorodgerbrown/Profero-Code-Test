@@ -8,7 +8,7 @@ The existing Profero.Interview shopping cart (hit F5 in Visual Studio to see it)
 The available shipping options are stored in App_Data\Shipping.xml.
 
 ## Objectives: ##
-1. Add a new Shipping Option to the application code. The Shipping Option should behave the same as the PerRegion Option except that if there are 2 or more items in the basket from the same Supplier and Region, 50p should be deducted from the shipping of each. Keep in mind the ability to change the parameters.
+1. Add a new Shipping Option to the application code. The Shipping Option should behave the same as the PerRegion Option except that if there is at least one other item in the basket from with this Shipping Option and the same Supplier and Region, 50p should be deducted from the shipping. Keep in mind the ability to change the parameters.
 2. Write a unit test for the new code.
 3. Form some opinions about how the code has been put together for discussion. Note that we are not looking for any particular criticisms (there are no "trick" mistakes, though there may be some genuine ones!).
 
